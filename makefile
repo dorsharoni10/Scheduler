@@ -9,7 +9,7 @@ HEADERS = scheduler.h ../task/task.h ../uid/uid.h \
 OBJECTS= test_scheduler.o scheduler.o ../priority_queue/priority_queue.o \
 		 ../task/task.o ../uid/uid.o ../heap/heap.o ../vector/vector.o
 
-CC= gcc
+CC= gc
 CFLAGS= -ansi -pedantic-errors -Wall -Wextra -g $(HEADER_PATHS_FLAGS)
 
 a.out : $(HEADERS) $(OBJECTS)
